@@ -2,12 +2,12 @@ package com.tps.demo.models;
 
 public class BookItem {
 	
-	private int isbn;
+	private String isbn;
 	private String name;
 	private String desc;
 	private String author;
 
-	public BookItem(int isbn, String name, String desc, String author) {
+	public BookItem(String isbn, String name, String desc, String author) {
 		this.isbn = isbn;
 		this.name = name;
 		this.desc = desc;
@@ -32,10 +32,10 @@ public class BookItem {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
-	public int getIsbn() {
+	public String getIsbn() {
 		return isbn;
 	}
-	public void setIsbn(int isbn) {
+	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
 
